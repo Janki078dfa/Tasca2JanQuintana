@@ -2,3 +2,47 @@
     padding: 0;
     margin: 0;
 }
+
+
+.div-articles {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+.img-div {
+    margin-left: 50px;
+    height: 500px;
+    width: 1000px;
+    background-color: red;
+}
+.div-articles p {
+    position: absolute;
+    right: 500px;
+}
+article img {
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 20px;
+}
+ article p {
+     align-content: end;
+ }
+
+
+ footer {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 100px;
+     background-color: blue;
+     height: 100px;
+     width: auto;
+     color: white;
+ }
+
+ footer p {
+ }
